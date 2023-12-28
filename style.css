@@ -1,7 +1,8 @@
 
 html,body{
     height:100%;
-    width:100%
+    width:100%;
+    font-family:'Roboto',sans-serif;
 }
 .text-center{
     text-align:center;
@@ -14,7 +15,12 @@ html,body{
 }
 
 .button{
+    width:66px;
     padding:20px;
+    margin:3px 0;
+    border:2px solid black;
+    border-radius :9px;
+    cursor: pointer;
 }
 .flex {
  display: flex;
@@ -26,5 +32,12 @@ html,body{
     align-items:center;
 }
 .row{
-   margin:12px 0;
+   margin:8px 0;
+}
+.row input{
+    margin:0;
+    padding:11px 25px;
+    border:2px solid black;
+    border-radius: 8px;
+    font-size: 15px;
 }
